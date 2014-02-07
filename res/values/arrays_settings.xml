@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/**
+ * Copyright (c) 2013, The Android Open Kang Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+-->
+
+<resources>
+    <!-- * 0 - Nothing
+         * 1 - Menu
+         * 2 - App-switch
+         * 3 - Search
+         * 4 - Voice search
+         * 5 - In-app search
+         * 6 - Kill app -->
+    <string-array name="setting_keyActionEntries" translatable="false">
+        <item>@string/setting_key_home_long_press_action_nothing</item>
+        <item>@string/setting_key_home_long_press_action_menu</item>
+        <item>@string/setting_key_home_long_press_action_appswitch</item>
+        <item>@string/setting_key_home_long_press_action_search</item>
+        <item>@string/setting_key_home_long_press_action_voicesearch</item>
+        <item>@string/setting_key_home_long_press_action_inappsearch</item>
+        <item>@string/setting_key_home_long_press_action_killapp</item>
+    </string-array>
+    <string-array name="setting_keyActionValues" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+
+    <string-array name="setting_toggleStyles" translatable="false">
+        <item>@string/toggles_style_tile</item>
+        <item>@string/toggles_style_traditional</item>
+        <item>@string/toggles_style_scrollable</item>
+    </string-array>
+    <string-array name="setting_toggleStylesValues" translatable="false">
+        <item>0</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="setting_togglesPerRow" translatable="false">
+        <item>@string/toggles_per_row_three</item>
+        <item>@string/toggles_per_row_four</item>
+        <item>@string/toggles_per_row_five</item>
+    </string-array>
+    <string-array name="setting_togglesPerRowValues" translatable="false">
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="choose_toggle_side_entries" translatable="false">
+        <item>@string/right</item>
+        <item>@string/left</item>
+    </string-array>
+    <string-array name="choose_toggle_side_values" translatable="false">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <array name="lockscreen_target_descriptions_unlock_only">
+        <item>@string/description_target_unlock</item>
+    </array>
+
+    <array name="lockscreen_targets_unlock_only">
+        <item>@drawable/ic_lockscreen_unlock</item>
+    </array>
+
+    <array name="lockscreen_direction_descriptions">
+        <item>@string/description_direction_right</item>
+        <item>@string/description_direction_up</item>
+        <item>@string/description_direction_left</item>
+        <item>@null</item>
+    </array>
+
+    <string-array name="navring_long_dialog_entries" translatable="false">
+        <item>@string/action_short</item>
+        <item>@string/action_long</item>
+        <item>@string/action_icon</item>
+    </string-array>
+    <string-array name="navring_long_dialog_values" translatable="false">
+        <item>**short**</item>
+        <item>**long**</item>
+        <item>**icon**</item>
+    </string-array>
+    <string-array name="navring_short_dialog_entries" translatable="false">
+        <item>@string/action_short</item>
+        <item>@string/action_icon</item>
+    </string-array>
+    <string-array name="navring_short_dialog_values" translatable="false">
+        <item>**short**</item>
+        <item>**icon**</item>
+    </string-array>
+    <string-array name="pref_navring_amount_entries" translatable="false">
+        <item>@string/one_target</item>
+        <item>@string/two_targets</item>
+        <item>@string/three_targets</item>
+        <item>@string/four_targets</item>
+        <item>@string/five_targets</item>
+    </string-array>
+
+    <string-array name="pref_navring_amount_values" translatable="false">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+    <string-array name="navbar_dialog_entries" translatable="false">
+        <item>@string/action_short</item>
+        <item>@string/action_long</item>
+        <item>@string/action_double</item>
+        <item>@string/action_icon</item>
+    </string-array>
+    <string-array name="navbar_dialog_values" translatable="false">
+        <item>**short**</item>
+        <item>**long**</item>
+        <item>**double**</item>
+        <item>**icon**</item>
+    </string-array>
+
+    <string-array name="entries_status_bar_network_stats_update" translatable="false">
+        <item>@string/time_0_5_seconds</item>
+        <item>@string/time_1_second</item>
+        <item>@string/time_2_seconds</item>
+        <item>@string/time_5_seconds</item>
+    </string-array>
+
+    <string-array name="values_status_bar_network_stats_update" translatable="false">
+        <item>500</item>
+        <item>1000</item>
+        <item>2000</item>
+        <item>5000</item>
+    </string-array>
+
+    <!-- clock stuff -->
+    <string-array name="statusbar_clock_styleEntries" translatable="false">
+        <item>@string/right_clock</item>
+        <item>@string/center_clock</item>
+        <item>@string/no_clock</item>
+    </string-array>
+    <string-array name="statusbar_clock_styleValues" translatable="false">
+        <item>1</item>
+        <item>2</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="statusbar_clock_am_pm_styleEntries" translatable="false">
+        <item>@string/dont_show</item>
+        <item>@string/small_am_pm</item>
+        <item>@string/regular_am_pm</item>
+    </string-array>
+    <string-array name="statusbar_clock_am_pm_styleValues" translatable="false">
+        <item>2</item>
+        <item>1</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="statusbar_clock_weekdayEntries" translatable="false">
+        <item>@string/dont_show</item>
+        <item>@string/small_weekday</item>
+        <item>@string/regular_weekday</item>
+    </string-array>
+    <string-array name="statusbar_clock_weekdayValues" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="screenshot_delayEntries" translatable="false">
+        <item>2 seconds</item>
+        <item>3 seconds</item>
+        <item>4 seconds</item>
+        <item>5 seconds</item>
+        <item>6 seconds</item>
+        <item>7 seconds</item>
+        <item>8 seconds</item>
+    </string-array>
+    <string-array name="screenshot_delayValues" translatable="false">
+        <item>2000</item>
+        <item>3000</item>
+        <item>4000</item>
+        <item>5000</item>
+        <item>6000</item>
+        <item>7000</item>
+        <item>8000</item>
+    </string-array>
+
+    <string-array name="power_menuEntries" translatable="false">
+        <item>@string/hide_option</item>
+        <item>@string/on_always</item>
+        <item>@string/on_when_insecure</item>
+    </string-array>
+    <string-array name="power_menuValues" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string-array name="ribbon_handle_location_entries" translatable="false">
+        <item>@string/center</item>
+        <item>@string/top</item>
+        <item>@string/bottom</item>
+    </string-array>
+    <string-array name="ribbon_handle_location_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="hide_ribbon_timeout_entries" translatable="false">
+        <item>@string/hide_ribbon_timeout_never</item>
+        <item>@string/hide_ribbon_timeout_1500</item>
+        <item>@string/hide_ribbon_timeout_3000</item>
+        <item>@string/hide_ribbon_timeout_5000</item>
+        <item>@string/hide_ribbon_timeout_10000</item>
+        <item>@string/hide_ribbon_timeout_15000</item>
+        <item>@string/hide_ribbon_timeout_30000</item>
+    </string-array>
+    <string-array name="hide_ribbon_timeout_values" translatable="false">
+        <item>0</item>
+        <item>1500</item>
+        <item>3000</item>
+        <item>5000</item>
+        <item>10000</item>
+        <item>15000</item>
+        <item>30000</item>
+    </string-array>
+
+</resources>
